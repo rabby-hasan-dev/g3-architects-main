@@ -1,0 +1,90 @@
+/* ...................................style universal........................ */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*............................... style body............................................. */
+/* ..........header part....... */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/*............................... navigation style...................................... */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-left: 34px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*.................... header-banner.......................................... */
+/* .....banner-details..... */
+/* .banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+.banner-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.banner-title {
+    font-size: 64px;
+    text-align: center;
+    color: #131313;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 32px;
+
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*.......... banner-iamge...... */
+.banner-image img {
+    width: 1440px;
+    height: 700px;
+    border: red;
+
+}
